@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Logo from './Logo';
 import Navbar from './Navbar';
 import Slider from './Slider';
@@ -10,7 +10,7 @@ import Footer from './Footer';
 class App extends React.Component {
   render() {
     return (
-    	<Fragment>
+    	<div className='wrapper'>
 	      <Logo />
 	      <Navbar />
 	      <Slider />
@@ -18,7 +18,7 @@ class App extends React.Component {
 	      <Blog />
 	      <InstagramInfo />
 	      <Footer />
-      	</Fragment>
+      	</div>
     )
   }
 }

@@ -3,6 +3,11 @@ body {
   padding: 0;
 }
 
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+}
+
 /*  Logo Component  */
 
 #main-logo {
@@ -31,6 +36,20 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin: auto;
+}
+
+
+/*  Footer Component  */
+
+.footer {
+	width: 100vw;
+	bottom: 0;
+	min-height: 50px;
+	height: 5vh;
+	display: flex;
+	position: fixed;
+	align-items: center;
+	justify-content: space-between;
 }
 
 /*  Media queries  */
