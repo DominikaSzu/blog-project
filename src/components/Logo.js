@@ -4,8 +4,8 @@ import logo from '../images/logo.png';
 class Logo extends React.Component {
 	render() {
 		return (
-		<div className='logoBox'>
-			<img id='logo' src={logo} alt='Górnicka Design'/>
+		<div className='logo-box'>
+			<img id='main-logo' src={logo} alt='Górnicka Design'/>
 		</div>
 	)}
 }
