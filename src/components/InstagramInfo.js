@@ -3,7 +3,7 @@ import React from 'react';
 class InstagramInfo extends React.Component {
 	render() {
 		return (
-		<p className="lala">InstagramInfo</p>
+		<p>InstagramInfo</p>
 	)}
 }
 
