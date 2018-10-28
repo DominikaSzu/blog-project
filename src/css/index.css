@@ -18,10 +18,30 @@ body {
 	align-items: center;
 }
 
+/*  Navbar Component  */
+
+.navbar {
+	width: 100vw;
+	min-height: 50px;
+	height: 5vh;
+	display: flex;
+}
+
+.menu {
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+/*  Media queries  */
 
 @media screen and (min-width: 410px) {
 	#main-logo {
 		width: 200px;
+	}
+
+	.categories {
+	display: flex;
 	}
 }
 
