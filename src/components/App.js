@@ -4,19 +4,21 @@ import Navbar from './Navbar';
 import Slider from './Slider';
 import RightColumn from './RightColumn';
 import Blog from './Blog';
+import InstagramInfo from './InstagramInfo';
 import Footer from './Footer';
 
 class App extends React.Component {
   render() {
     return (
-    	<React.Fragment>
+    	<Fragment>
 	      <Logo />
 	      <Navbar />
 	      <Slider />
 	      <RightColumn />
 	      <Blog />
+	      <InstagramInfo />
 	      <Footer />
-      	</React.Fragment>
+      	</Fragment>
     )
   }
 }
