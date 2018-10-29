@@ -42,6 +42,30 @@ body {
 
 /*  Slider Component  */
 
+.gallery {
+	width: 90vw;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30vh;
+	margin: auto;
+}
+
+.photo-box {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.photo-img {
+	height: 100%;
+	width: 100%;
+	min-width: 330px;
+	min-height: 200px;	
+}
+
 /*  RightColumn Component  */
 
 /*  Blog Component  */

@@ -1,9 +1,14 @@
 import React from 'react';
+import photo from '../images/gallery.jpg';
 
 class Slider extends React.Component {
 	render() {
 		return (
-			<p className='lala'>SliderSlider</p>
+			<div className="gallery">
+				<figure className="photo">
+					<img className="photo" src={photo} alt="Pink Book"/>
+				</figure>
+			</div>
 	)}
 }
 
