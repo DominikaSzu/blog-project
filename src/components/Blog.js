@@ -1,9 +1,15 @@
 import React from 'react';
+import BlogPost from './BlogPost';
 
 class Blog extends React.Component {
 	render() {
 		return (
-			<p>Blog</p>
+		<div className="blog">
+			<BlogPost />
+			<BlogPost />
+			<BlogPost />
+			<BlogPost />
+		</div>
 	)}
 }
 

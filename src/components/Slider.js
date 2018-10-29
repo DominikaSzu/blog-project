@@ -5,8 +5,8 @@ class Slider extends React.Component {
 	render() {
 		return (
 			<div className="gallery">
-				<figure className="photo">
-					<img className="photo" src={photo} alt="Pink Book"/>
+				<figure className="photo-box">
+					<img className="photo-img" src={photo} alt="Pink Book"/>
 				</figure>
 			</div>
 	)}
