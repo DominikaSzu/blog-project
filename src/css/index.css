@@ -85,12 +85,23 @@ body {
 	flex-direction: column;
 }
 
+.blog-post .title {
+	margin: 1vh;
+}
+
 .blog-post-photo {
 	width: 85%;
 	height: auto;
 	margin: auto;
 	margin-top: 2vh;
 	border-radius: 3%;
+}
+
+.post-content {
+	margin-top: 1vh;
+	text-align: justify;
+	align-self: center;
+	padding: 0 2vw;
 }
 
 /*  InstagramInfo Component  */
