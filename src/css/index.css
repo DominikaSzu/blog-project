@@ -28,7 +28,7 @@ body {
 /*  Navbar Component  */
 
 .navbar {
-	width: 100vw;
+	width: 100%;
 	min-height: 50px;
 	height: 5vh;
 	display: flex;
@@ -73,6 +73,24 @@ body {
 .blog {
 	width: 90vw;
 	margin: auto;
+}
+
+/*  BlogPost Component  */
+
+.blog-post {
+	border: 1px gold solid;
+	margin: 2vh auto;
+	border-radius: 3%;
+	display: flex;
+	flex-direction: column;
+}
+
+.blog-post-photo {
+	width: 85%;
+	height: auto;
+	margin: auto;
+	margin-top: 2vh;
+	border-radius: 3%;
 }
 
 /*  InstagramInfo Component  */
