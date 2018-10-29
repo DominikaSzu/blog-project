@@ -6,6 +6,8 @@ body {
 .wrapper {
 	width: 100vw;
 	height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 /*  Logo Component  */
@@ -66,6 +68,6 @@ body {
 
 @media screen and (min-width: 910px) {
 	#main-logo {
-		width: 270px;
+		width: 230px;
 	}
 }
