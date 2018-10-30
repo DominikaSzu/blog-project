@@ -10,7 +10,7 @@ class BlogPost extends React.Component {
 				<p className="post-content">
 				Gummi bears gingerbread wafer jelly beans icing tootsie roll fruitcake apple pie halvah. Cupcake sugar plum liquorice oat cake. Halvah bonbon dessert chocolate cake pastry brownie. Cake candy canes biscuit marzipan macaroon jujubes.	
 				</p>
-				<button className="read-more">Przeczytaj</button>
+				<button className="read-more">Czytaj</button>
 			</article>
 	)}
 }

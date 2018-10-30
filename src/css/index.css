@@ -2,6 +2,11 @@ body {
   margin: 0;
   padding: 0;
   background-color: #d2f0e2;
+  box-sizing: border-box;
+}
+
+*, *:after, *:before {
+	box-sizing: inherit;
 }
 
 .wrapper {
@@ -20,8 +25,8 @@ body {
 
 .logo-box {
 	display: flex;
-	width: 100vw;
-	height: 40vh;
+	width: 100%;
+	height: 40%;
 	min-height: 150px;
 	justify-content: center;
 	align-items: center;
@@ -50,7 +55,7 @@ body {
 /*  Slider Component  */
 
 .gallery {
-	width: 90vw;
+	width: 90%;
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
@@ -78,7 +83,7 @@ body {
 /*  Blog Component  */
 
 .blog {
-	width: 90vw;
+	width: 90%;
 	margin: auto;
 }
 
@@ -91,15 +96,18 @@ body {
 	display: flex;
 	flex-direction: column;
 	background-color: #FFFFFF;
+	justify-content: center;
+	align-items: center;
 }
 
 .blog-post .title {
 	margin: 1vh;
 	font-family: 'Lobster', cursive;
 	color: #8b645a;
+	padding: 0 6%;
 }
 
-.blog-post-photo {
+.blog-post .blog-post-photo {
 	width: 85%;
 	height: auto;
 	margin: auto;
@@ -107,12 +115,27 @@ body {
 	border-radius: 3%;
 }
 
-.post-content {
-	margin-top: 1vh;
+.blog-post .post-content {
+	margin-top: 1%;
 	text-align: justify;
 	align-self: center;
-	padding: 0 2vw;
+	padding: 0 6%;
 	border-radius: 3%;
+}
+
+.blog-post .read-more {
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	margin-bottom: 5%;
+	font-family: 'Karla', sans-serif;
+	text-transform: uppercase;
+	background-color: pink;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+	color: #8b645a;
+	box-shadow: 11px 9px 19px -8px rgba(175,173,201,1);
 }
 
 /*  InstagramInfo Component  */
@@ -120,15 +143,15 @@ body {
   /*Footer Component  */
 
 .footer {
-	width: 100vw;
+	width: 100%;
 	bottom: 0;
 	min-height: 50px;
 	height: 5vh;
 	display: flex;
-	position: sticky;
 	align-items: center;
 	justify-content: space-between;
-	background-color: 
+	background-color: #afadc9;
+	font-size: 0.9rem;
 }
 
 /*  Media queries  */
