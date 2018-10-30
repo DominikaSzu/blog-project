@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #d2f0e2;
 }
 
 .wrapper {
@@ -8,6 +9,7 @@ body {
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
+	font-family: 'Karla', sans-serif;
 }
 
 /*  Logo Component  */
@@ -32,12 +34,17 @@ body {
 	min-height: 50px;
 	height: 5vh;
 	display: flex;
+	font-size: 1.2rem;
 }
 
 .menu {
 	justify-content: center;
 	align-items: center;
 	margin: auto;
+}
+
+.categories {
+	display: none;   /*to be changed*/
 }
 
 /*  Slider Component  */
@@ -83,10 +90,13 @@ body {
 	border-radius: 3%;
 	display: flex;
 	flex-direction: column;
+	background-color: #FFFFFF;
 }
 
 .blog-post .title {
 	margin: 1vh;
+	font-family: 'Lobster', cursive;
+	color: #8b645a;
 }
 
 .blog-post-photo {
@@ -102,6 +112,7 @@ body {
 	text-align: justify;
 	align-self: center;
 	padding: 0 2vw;
+	border-radius: 3%;
 }
 
 /*  InstagramInfo Component  */
@@ -114,9 +125,10 @@ body {
 	min-height: 50px;
 	height: 5vh;
 	display: flex;
-	position: fixed;
+	position: sticky;
 	align-items: center;
 	justify-content: space-between;
+	background-color: 
 }
 
 /*  Media queries  */
